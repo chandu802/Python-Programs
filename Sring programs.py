@@ -28,3 +28,18 @@ res_str=res_str+' '+out_str
 print(res_str)
 
 
+#Write a program for get below output
+# o/p: "sihT si nohtyp ssclc"
+str1="This is Python class"
+new_str=''
+cnt=1
+for i in str1.split():
+    if(cnt==1):
+        new_str=new_str+i[::-1]
+        cnt+=1
+    else:
+        new_str=new_str+' '+i[::-1]
+print(new_str)
+
+
+
